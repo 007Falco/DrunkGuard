@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //This is how the time for DrunkGuard to start is selected
     public void pickTime(){
         getTime =  (Button) findViewById(R.id.button);
         timepicker = (TimePicker) findViewById(R.id.timePicker);
